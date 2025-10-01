@@ -9,3 +9,9 @@ export default function demo(value) {
 }
 
 console.log("app.js included");
+
+import { func } from "../example";
+
+const container = document.querySelector(".container");
+
+func(container)
